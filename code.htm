@@ -160,6 +160,59 @@
 											<li><strong>Click</strong> <em>Close</em></li>
 										</ol>
 									</li>
+									<li>Add Server Manager Roles and Features
+										<ol>
+											<li><strong>Open</strong> the Server Manager application</li>
+											<li><strong>Click</strong> <em>Manage</em></li>
+											<li><strong>Click</strong> <em>Add Roles and Features</em></li>
+											<li><strong>Click</strong> <em>Next</em> three times</li>
+											<li>Different options should be showing</li>
+											<li><strong>Look for</strong> and <strong>Add</strong> the following:
+												<ol>
+													<li>Active Directory Domain Services (AD DS)</li>
+													<li>Domain Name System (DNS) Server</li>
+													<li>Dynamic Host Configuration Protocol (DHCP) Server</li>
+													<li>Web Server</li>
+													<li>Windows Deployment Services (WDS)</li>
+													<li>Windows Server Update Services (WSUS)</li>
+												</ol>
+											</li>
+											<li>Once these are all checked, <strong>Click</strong> <em>Next</em> until you reach Features</li>
+											<li><strong>Check</strong> TFTP and Remote Differential Compression</li>
+											<li><strong>Click</strong> <em>Next</em> until you reach Role Services</li>
+											<li><strong>Look for</strong> and <strong>Add</strong> the following:
+												<ol>
+													<li>In Common HTTP Features:
+														<ul>HTTP Redirection</ul>
+													</li>
+													<li>In Health and Diagnostics:
+														<ul>Custom Logging</ul>
+														<ul>Logging Tools</ul>
+														<ul>FTP Server</ul>
+														<ul>FTP Service</ul>
+													</li>
+													<li>In Security:
+														<ul>Basic Authentication</ul>
+														<ul>Centralized SSL Certificate Support</ul>
+														<ul>URL Authorization</ul>
+													</li>
+											</li>
+											<li><strong>Click</strong> <em>Next</em> until you reach the WSUS tab</li>
+											<li>Once you reach WSUS, take the following actions:
+												<ol>
+													<li><strong>Go to</strong> <em>Content</em></li>
+													<li>For the store updates remote path <strong>Type</strong>: 
+														<ul>
+															<li>C:\WSUS-Updates</li>
+														</ul>
+													</li>
+													<li><strong>Click</strong> <em>Next</em></li>
+													<li><strong>Click</strong> <em>Install</em></li>
+													<li><strong>Close</strong> after installation is complete</li>
+												</ol>
+											</li>
+										</ol>
+									</li>
 									<!-- TODO:  -->
 
 
