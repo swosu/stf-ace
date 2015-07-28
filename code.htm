@@ -39,7 +39,7 @@
 							<li>Key combinations should be represented the same as the above with plus signs (+) separating them.  Example: Press and hold the <strong>[Ctrl] + [Alt] + [Del]</strong> keys together.</li>
 							<li>Actions required by the user should be represented in <strong>bold</strong>.</li>
 							<ul>
-								<li>Follow up actions should be represented in <em>italics</em>.<br>Example: <strong>Click</strong> the left mouse button and then </li>
+								<li>Buttons should be represented in <em>italics</em>.<br>Example: <strong>Click</strong> <em>Next</em></li>
 							</ul>
 							<li>Code that should be written, text that should be typed, commands that should be entered into the command line should be represented in <code>monospace font using the code tag</code>.  Example: <strong>Type</strong> <code>*.bat</code> into the Search Box, then hit <strong>[Enter]</strong>.</li>
 							<li>All linkable text should be linked where appropriate.  Example:
@@ -119,8 +119,102 @@
 											<li>Wait for Windows to install</li>
 										</ol>
 									</li>
-
-									<!-- TODO: Pick up at Settings: Give Password -->
+									<li>Create a password
+										<ol>
+											<li>From Settings, <strong>Create</strong> a password</li>
+											<li><strong>Add</strong> the password to 1Password</li>
+											<li><strong>Click</strong> <em>Next</em></li>
+											<li><strong>Login</strong> to server</li>
+										</ol>
+									</li>
+									<li>Place backup on the server
+										<ol>
+											<li><strong>Insert</strong> the device with the server backup into the server</li>
+											<li><strong>Copy</strong> the server backup</li>
+											<li><strong>Paste</strong> the server backup onto the server desktop</li>
+										</ol>
+									</li>
+									<li>Add the server IP Address
+										<ol>
+											<li><strong>Right click</strong> on the network options icon in the bottom right of the server screen</li>
+											<li><strong>Click</strong> <em>Open Network and Sharing Center</em></li>
+											<li><strong>Click</strong> <em>Change adapter settings</em></li>
+											<li><strong>Click</strong> <em>Ethernet</em></li>
+											<li><strong>Right click</strong> <em>Ethernet</em></li>
+											<li><strong>Click</strong> <em>Properties</em></li>
+											<li><strong>Click</strong> <em>Internet Protocol Version 4 (TCP/IPv4)</em></li>
+											<li><strong>Click</strong> <em>Properties</em></li>
+											<li><strong>Input</strong> the following IP Addresses:
+												<ul>
+													<li>IP Address: 10.70.5.10</li>
+													<li>Subnet Mask: 255.255.255.0</li>
+													<li>Default Gateway: 10.70.5.1</li>
+												</ul>
+											</li>
+											<li><strong>Input</strong> the following DNS Server IP Addresses:
+												<ul>
+													<li>Preferred DNS Server Address: 8.8.8.8</li>
+													<li>Alternate DNS Server Address: 8.8.4.4</li>
+												</ul>
+											</li>
+											<li><strong>Click</strong> <em>Okay</em></li>
+											<li><strong>Click</strong> <em>Close</em></li>
+										</ol>
+									</li>
+									<li>Add Server Manager Roles and Features
+										<ol>
+											<li><strong>Open</strong> the Server Manager application</li>
+											<li><strong>Click</strong> <em>Manage</em></li>
+											<li><strong>Click</strong> <em>Add Roles and Features</em></li>
+											<li><strong>Click</strong> <em>Next</em> three times</li>
+											<li>Different options should be showing</li>
+											<li><strong>Look for</strong> and <strong>Add</strong> the following:
+												<ol>
+													<li>Active Directory Domain Services (AD DS)</li>
+													<li>Domain Name System (DNS) Server</li>
+													<li>Dynamic Host Configuration Protocol (DHCP) Server</li>
+													<li>Web Server</li>
+													<li>Windows Deployment Services (WDS)</li>
+													<li>Windows Server Update Services (WSUS)</li>
+												</ol>
+											</li>
+											<li>Once these are all checked, <strong>Click</strong> <em>Next</em> until you reach Features</li>
+											<li><strong>Check</strong> TFTP and Remote Differential Compression</li>
+											<li><strong>Click</strong> <em>Next</em> until you reach Role Services</li>
+											<li><strong>Look for</strong> and <strong>Add</strong> the following:
+												<ol>
+													<li>In Common HTTP Features:
+														<ul>HTTP Redirection</ul>
+													</li>
+													<li>In Health and Diagnostics:
+														<ul>Custom Logging</ul>
+														<ul>Logging Tools</ul>
+														<ul>FTP Server</ul>
+														<ul>FTP Service</ul>
+													</li>
+													<li>In Security:
+														<ul>Basic Authentication</ul>
+														<ul>Centralized SSL Certificate Support</ul>
+														<ul>URL Authorization</ul>
+													</li>
+											</li>
+											<li><strong>Click</strong> <em>Next</em> until you reach the WSUS tab</li>
+											<li>Once you reach WSUS, take the following actions:
+												<ol>
+													<li><strong>Go to</strong> <em>Content</em></li>
+													<li>For the store updates remote path <strong>Type</strong>: 
+														<ul>
+															<li>C:\WSUS-Updates</li>
+														</ul>
+													</li>
+													<li><strong>Click</strong> <em>Next</em></li>
+													<li><strong>Click</strong> <em>Install</em></li>
+													<li><strong>Close</strong> after installation is complete</li>
+												</ol>
+											</li>
+										</ol>
+									</li>
+									<!-- TODO:  -->
 
 
 								</ol>
