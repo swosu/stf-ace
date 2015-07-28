@@ -1,0 +1,28 @@
+/* Google Font Import Code */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700);
+
+/* Make all headers Oswald font */
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald';
+}
+
+/* Make all other text Open Sans font */
+body {
+	font-family: 'Open Sans'
+}
+
+h2 {
+	margin-left: 50px;
+}
+
+h3 {
+	margin-left: 100px;
+}
+
+.list {
+	margin-left: 100px;
+}
+
+p.list {
+	margin-left: 150px;
+}
