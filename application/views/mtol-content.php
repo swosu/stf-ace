@@ -1,10 +1,4 @@
-<html>
-	<head>
-		<title>MTOL - Master Turnover Log</title>
-		<link rel="stylesheet" type="text/css" href= "style.css">
-	</head>
-		<body>
-			<h1>MTOL - Master Turnover Log</h1>
+			<h1><?php echo $content_title ?></h1>
 				<h2>2015 - June</h2>
 					<h3>Mon, Jun 22</h3>
 						<ul class="list">
@@ -81,14 +75,6 @@
 						<ul class="list">
 							<li>Finished unpacking the last of the monitors</li>
 							<li>Unpacked all cables, mice, and keyboards</li>
-							<li>TODO:
-								<ul>
-									<li>Inventory rest of equipment</li>
-									<li>Take measurments for ethernet cables using cieling tiles (1 tile = 2 ft)</li>
-									<li>Setup power strips</li>
-									<li>Power on each workstation</li>
-								</ul>
-							</li>
 						</ul>
 					<h3>Tue, Jul 7</h3>
 						<ul class="list">
@@ -142,25 +128,6 @@
 							<li>Setup <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>, but unable to get IP addresses assigned out</li>
 							<li>Finished day by working more on HTML lessons and Git pushing, pulling, and committing changes</li>
 						</ul>
-					<h3>TODO</h3>
-						<ul class="list">
-							<li>Determine software that should be installed</li>
-							<li>Install software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
-							<li>Take image of machine</li>
-							<li>Deploy image to other workstations</li>
-							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> on server</li>
-							<li>Create user accounts
-								<ul>
-									<li>Elvis</li>
-									<li>Sublime Geek</li>
-									<li>Hambone</li>
-								</ul>
-							</li>
-							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
-							<li>Install BitDefender</li>
-							<li>Setup a Backup procedure</li>
-							<li>Setup minecraft</li>
-						</ul>
 					<h3>Tue, Jul 28</h3>
 						<ul class="list">
 							<li>Added the following sections to the <abbr title="COMSC Documentation">CODE</abbr>:
@@ -185,6 +152,57 @@
 							<li>Installed codeigniter</li>
 							<li>Added and merged style changes to <abbr title="Master Turnover Log">MTOL</abbr></li>
 						</ul>
-
-		</body>
-</html>
+				<h2>2015 - August</h2>
+					<h3>Mon, Aug 3</h3>
+						<ul class="list"> 
+							<li>Imported code from main CI master branch</li>
+							<li>Created account and application on Herocku</li>
+							<li>Reviewed over Heroku</li>
+							<li>Split <abbr title="Master Turnover Log">MTOL</abbr> into header, contents, and footer</li>
+						</ul>
+					<h3>Tue, Aug 4</h3>
+						<ul class="list">
+							<li>Went through <abbr title="Master Turnover Log">MTOL</abbr> and removed TODOs from previous entries</li>
+							<li>Moved the TODO list after the last entry</li>
+							<li>Added the Complete Notification Tasks section to the <abbr title="COMSC Documentation">CODE</abbr></li>
+							<li>Researched <abbr title="Object Oriented Programming">OOP</abbr> for <abbr title="Hypertext Preprocessor">PHP</abbr></li>
+						</ul>
+					<h3>Wed, Aug 5</h3>
+						<ul class="list">
+							<li>Renamed <abbr title="Master Turnover Log">MTOL</abbr> files to reflect future configuration</li>
+							<li>Added <abbr title="Master Turnover Log">MTOL</abbr> class and controller</li>
+							<li>Added home page</li>
+							<li>Modified files to reflect futrure changes in structure</li>
+							<li>Added style to Aug 3 and 4</li>
+							<li>Added nav file, panel and basic navigation</li>
+							<li>Updated website for clean URLs</li>
+							<li>Added more definition to each page with dynamic content</li>
+							<li>Created  <abbr title="Comprehensive Research Document">CRED</abbr> and <abbr title="COMSC Documentation">CODE</abbr> controllers and views</li>
+							<li>Fixed bug by injecting tile information into  header</li>
+							<li>Fixed bug preventing <abbr title="Comprehensive Research Document">CRED</abbr> from displaying</li>
+							<li>Merged branch ci into develop</li>
+							<li>Merged branch develop into master</li>
+							<li>Released  STF Ace Website v0.1</li>
+							<li>Deleted unnecessary files and branches</li>
+						</ul>
+					<br>
+					<h3>TODO</h3>
+						<ul class="list">
+							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
+							<li>Determine software that should be installed</li>
+							<li>Install software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
+							<li>Take image of machine</li>
+							<li>Deploy image to other workstations</li>
+							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> on server</li>
+							<li>Create user accounts
+								<ul>
+									<li>Elvis</li>
+									<li>Sublime Geek</li>
+									<li>Hambone</li>
+								</ul>
+							</li>
+							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
+							<li>Install BitDefender</li>
+							<li>Setup a Backup procedure</li>
+							<li>Setup minecraft</li>
+						</ul>

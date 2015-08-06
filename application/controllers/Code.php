@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Code extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data = array( 	'page_title' => "STFACE | COMSC Documentation" ,
+						'content_title' => "CODE - COMSC Documentation" );
+
+		$this->load->view('header', $data);
+		$this->load->view('nav');
+		$this->load->view('code-content', $data);
+		$this->load->view('footer');
 	}
 }

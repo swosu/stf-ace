@@ -1,9 +1,3 @@
-<html>
-	<head>
-		<title>CODE - COMSC Documentation</title>
-		<link rel="stylesheet" type="text/css" href= "style.css">
-	</head>
-		<body>
 			<h1>CODE - COMSC Documentation</h1>
 				<h2>Door Status</h2>
 					<h3>Rooms 342 &amp; 343</h3>
@@ -219,6 +213,43 @@
 												</ol>
 											</li>
 										</ol>
+									<li>Complete Notification Tasks
+										<ol>
+											<li>From Notifications, <strong>Go to</strong> the Post Deployment Configurations
+												<ol>
+													<li><strong>Launch</strong> the Post Installation Tasks</li>
+													<li>After the Post Installation Tasks have been launched, <strong>Go to</strong> the Local Server</li>
+													<li>From the Local Server, <strong>Find</strong> Windows Updates and <strong>Click</strong> <em>Not Configured</em></li>
+													<li><strong>Turn on</strong> Auto Updates</li>
+													<li><strong>Click</strong> <em>Install Now</em> <strong>ONLY</strong> after the Server Backup has completed</li>
+												</ol>
+											</li>
+											<li>From Notifications, <strong>Go to</strong> the Post Deployment Configurations
+												<ol>
+													<li><strong>Complete</strong> DHCP configuration</li>
+													<li><strong>Click</strong> <em>Commit</em></li>
+													<li><strong>Click</strong> <em>Close</em></li>
+												</ol>
+											</li>
+											<li>From Notifications, <strong>Go to</strong> the Post Deployment Configurations
+												<ol>
+													<li><strong>Promote</strong> this server to domain controller</li>
+													<li><strong>Add</strong> a new forest</li>
+													<li><strong>Make</strong> the Root domain name:
+														<ul>
+															<li>STFACE.local</li>
+														</ul>
+													</li>
+													<li><strong>Click</strong> <em>Next</em></li>
+													<li><strong>Make</strong> the Directory Service Restore Mode Password</li>
+													<li><strong>Add</strong> the password to 1Password</li>
+													<li><strong>Confirm</strong> password</li>
+													<li><strong>Click</strong> <em>Next</em> until you can <strong>Click</strong> <em>Install</em></li>
+													<li><strong>Click</strong> <em>Install</em></li>
+													<li><strong>Restart</strong> the server</li>
+												</ol>
+											</li>
+										</ol>
 									</li>
 									<!-- TODO:  -->
 
@@ -227,6 +258,3 @@
 
 					<!-- TODO: How to restore the server -->
 					<!-- TODO: How to handle a harddrive failure -->
-
-		</body>
-</html>
