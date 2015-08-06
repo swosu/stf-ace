@@ -185,6 +185,12 @@
 							<li>Released  STF Ace Website v0.1</li>
 							<li>Deleted unnecessary files and branches</li>
 						</ul>
+					<h3>Thu, Aug 6</h3>
+						<ul>
+							<li>Rolled back Git repo to negate import of codeigniter in order to squash 8,000+ commits into one to simplify things</li>
+							<li>Met with Dr. Sweeney to discuss STF259 strategy, agreed to create one account per student and grant needed permissions based off of courses.</li>
+							<li>Assigned more research material to Padawan Jaclyn</li>
+						</ul>
 					<br>
 					<h3>TODO</h3>
 						<ul class="list">
@@ -201,8 +207,14 @@
 									<li>Hambone</li>
 								</ul>
 							</li>
+							<li>Create security groups for each class</li>
+							<li>Create shared folders for each class</li>
+							<li>Create user accounts for each instructor that needs access</li>
+							<li>Create user accounts for each student based off of classes taken</li>
+							<li>Come up with username naming system for students. Dawgtag? LastF?</li>
 							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
 							<li>Install BitDefender</li>
 							<li>Setup a Backup procedure</li>
 							<li>Setup minecraft</li>
+
 						</ul>
