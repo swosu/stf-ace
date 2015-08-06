@@ -198,6 +198,7 @@
 							<li>Determine software that should be installed</li>
 							<li>Install software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
 							<li>Take image of machine</li>
+							<li>Setup 3 main accounts on each machine, LAB, ADMIN, and student accounts</li>
 							<li>Deploy image to other workstations</li>
 							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> on server</li>
 							<li>Create user accounts
