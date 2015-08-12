@@ -186,10 +186,30 @@
 							<li>Deleted unnecessary files and branches</li>
 						</ul>
 					<h3>Thu, Aug 6</h3>
-						<ul>
+						<ul class="list">
 							<li>Rolled back Git repo to negate import of codeigniter in order to squash 8,000+ commits into one to simplify things</li>
 							<li>Met with Dr. Sweeney to discuss STF259 strategy, agreed to create one account per student and grant needed permissions based off of courses.</li>
 							<li>Assigned more research material to Padawan Jaclyn</li>
+						</ul>
+					<h3>Fri, Aug 7</h3>
+						<ul class="list">
+							<li>Began course on codeacademy.com for PHP</li>
+						</ul>
+					<h3>Mon, Aug 10</h3>
+						<ul class="list">
+							<li>Continued learning PHP</li>
+							<li>Talked with Dr. Sweeney about what we still needed to complete STF259 and STF260</li>
+							<li>Went over questions for PHP</li>
+							<li>Went over the different types of loops for PHP</li>
+						</ul>
+					<h3>Tue, Aug 11</h3>
+						<ul class="list">
+							<li>Continued PHP course on codeacademy.com</li>
+						</ul>
+					<h3>Wed, Aug 12</h3>
+						<ul class="list">
+							<li>Received machines for STF259 and inventoried them</li>
+							<li>Went over more questions for PHP</li>
 						</ul>
 					<br>
 					<h3>TODO</h3>
