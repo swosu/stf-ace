@@ -211,31 +211,32 @@
 							<li>Received machines for STF259 and inventoried them</li>
 							<li>Went over more questions for PHP</li>
 						</ul>
-					<br>
-					<h3>TODO</h3>
+					<h3>Thu, Aug 13 - Mon, Aug 31</h3>
 						<ul class="list">
-							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
-							<li>Determine software that should be installed</li>
-							<li>Install software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
-							<li>Take image of machine</li>
-							<li>Setup 3 main accounts on each machine, LAB, ADMIN, and student accounts</li>
+							<li>Determined what software needed to be installed</li>
+							<li>Installed software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
+							<li>Took an image of the machine</li>
 							<li>Deploy image to other workstations</li>
-							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> on server</li>
-							<li>Create user accounts
+							<li>Setup the 3 main accounts on each machine, LAB, ADMIN, and student accounts</li>
+							<li>Created user accounts
 								<ul>
 									<li>Elvis</li>
 									<li>Sublime Geek</li>
 									<li>Hambone</li>
 								</ul>
 							</li>
-							<li>Create security groups for each class</li>
-							<li>Create shared folders for each class</li>
-							<li>Create user accounts for each instructor that needs access</li>
-							<li>Create user accounts for each student based off of classes taken</li>
-							<li>Come up with username naming system for students. Dawgtag? LastF?</li>
+							<li>Created security groups for each class</li>
+							<li>Created user accounts for each instructor that needs access</li>
+							<li>Created user accounts for each student based off of classes taken</li>
+							<li>Came up with username naming system for students. Dawgtag? LastF?</li>
 							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
+					<br>
+					<h3>TODO</h3>
+						<ul class="list">
+							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
+							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> and <abbr title="Windows Deployment Services">WDS</abbr> on server</li>
+							<li>Create shared folders for each class</li>						
 							<li>Install BitDefender</li>
 							<li>Setup a Backup procedure</li>
 							<li>Setup minecraft</li>
-
 						</ul>
