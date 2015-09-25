@@ -230,13 +230,23 @@
 							<li>Created user accounts for each student based off of classes taken</li>
 							<li>Came up with username naming system for students. Dawgtag? LastF?</li>
 							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
+				<h2>2015 - September</h2>
+					<h3>Tue, Sept 1 - Fri, Sept 25</h3>
+						<ul class="list">
+							<li>Continued to manage STF259 and STF260</li>
+							<li>Added printers to STF259 and STF260</li>
+							<li>Created <abbr title="Virtual Machine">VM</abbr> for Database Systems course</li>
+							<li>Started creating <abbr title="Virtual Machine">VM</abbr> for Introduction to Computer Forensics course</li>
+							<li>Installed BitDefender</li>
+						</ul>
 					<br>
 					<h3>TODO</h3>
 						<ul class="list">
 							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
 							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> and <abbr title="Windows Deployment Services">WDS</abbr> on server</li>
+							<li>Continue working with group policies</li>
 							<li>Create shared folders for each class</li>						
-							<li>Install BitDefender</li>
+							<li>Continue configuring BitDefender</li>
 							<li>Setup a Backup procedure</li>
 							<li>Setup minecraft</li>
 						</ul>
