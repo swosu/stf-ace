@@ -239,6 +239,13 @@
 							<li>Started creating <abbr title="Virtual Machine">VM</abbr> for Introduction to Computer Forensics course</li>
 							<li>Installed BitDefender</li>
 						</ul>
+					<h3>Sept 26th - Oct 7</h3>
+						<ul class="list">
+							<li>Setup minecraft</li>
+							<li>Created tutorial on setting up git on windows</li>
+							<li>Delivered cables to BlueThunderAlley</li>
+							<li>Setup VM for SQL server & Forensics Lab</li>
+						</ul>
 					<br>
 					<h3>TODO</h3>
 						<ul class="list">
@@ -248,5 +255,6 @@
 							<li>Create shared folders for each class</li>						
 							<li>Continue configuring BitDefender</li>
 							<li>Setup a Backup procedure</li>
-							<li>Setup minecraft</li>
+							<li>Add Git to 259</li>
+							<li>Add Unreal Engine to 259</li>
 						</ul>
