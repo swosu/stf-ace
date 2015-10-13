@@ -185,24 +185,76 @@
 							<li>Released  STF Ace Website v0.1</li>
 							<li>Deleted unnecessary files and branches</li>
 						</ul>
-					<br>
-					<h3>TODO</h3>
+					<h3>Thu, Aug 6</h3>
 						<ul class="list">
-							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
-							<li>Determine software that should be installed</li>
-							<li>Install software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
-							<li>Take image of machine</li>
+							<li>Rolled back Git repo to negate import of codeigniter in order to squash 8,000+ commits into one to simplify things</li>
+							<li>Met with Dr. Sweeney to discuss STF259 strategy, agreed to create one account per student and grant needed permissions based off of courses.</li>
+							<li>Assigned more research material to Padawan Jaclyn</li>
+						</ul>
+					<h3>Fri, Aug 7</h3>
+						<ul class="list">
+							<li>Began course on codeacademy.com for PHP</li>
+						</ul>
+					<h3>Mon, Aug 10</h3>
+						<ul class="list">
+							<li>Continued learning PHP</li>
+							<li>Talked with Dr. Sweeney about what we still needed to complete STF259 and STF260</li>
+							<li>Went over questions for PHP</li>
+							<li>Went over the different types of loops for PHP</li>
+						</ul>
+					<h3>Tue, Aug 11</h3>
+						<ul class="list">
+							<li>Continued PHP course on codeacademy.com</li>
+						</ul>
+					<h3>Wed, Aug 12</h3>
+						<ul class="list">
+							<li>Received machines for STF259 and inventoried them</li>
+							<li>Went over more questions for PHP</li>
+						</ul>
+					<h3>Thu, Aug 13 - Mon, Aug 31</h3>
+						<ul class="list">
+							<li>Determined what software needed to be installed</li>
+							<li>Installed software on one machine with <abbr title="Operating System">OS</abbr> updates</li>
+							<li>Took an image of the machine</li>
 							<li>Deploy image to other workstations</li>
-							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> on server</li>
-							<li>Create user accounts
+							<li>Setup the 3 main accounts on each machine, LAB, ADMIN, and student accounts</li>
+							<li>Created user accounts
 								<ul>
 									<li>Elvis</li>
 									<li>Sublime Geek</li>
 									<li>Hambone</li>
 								</ul>
 							</li>
+							<li>Created security groups for each class</li>
+							<li>Created user accounts for each instructor that needs access</li>
+							<li>Created user accounts for each student based off of classes taken</li>
+							<li>Came up with username naming system for students. Dawgtag? LastF?</li>
 							<li><abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> Setup</li>
-							<li>Install BitDefender</li>
-							<li>Setup a Backup procedure</li>
+				<h2>2015 - September</h2>
+					<h3>Tue, Sept 1 - Fri, Sept 25</h3>
+						<ul class="list">
+							<li>Continued to manage STF259 and STF260</li>
+							<li>Added printers to STF259 and STF260</li>
+							<li>Created <abbr title="Virtual Machine">VM</abbr> for Database Systems course</li>
+							<li>Started creating <abbr title="Virtual Machine">VM</abbr> for Introduction to Computer Forensics course</li>
+							<li>Installed BitDefender</li>
+						</ul>
+					<h3>Sept 26th - Oct 7</h3>
+						<ul class="list">
 							<li>Setup minecraft</li>
+							<li>Created tutorial on setting up git on windows</li>
+							<li>Delivered cables to BlueThunderAlley</li>
+							<li>Setup VM for SQL server & Forensics Lab</li>
+						</ul>
+					<br>
+					<h3>TODO</h3>
+						<ul class="list">
+							<li>Convert <abbr title="Master Turnover Log">MTOL</abbr> into database</li>
+							<li>Setup <abbr title="Windows Server Update Services">WSUS</abbr> and <abbr title="Windows Deployment Services">WDS</abbr> on server</li>
+							<li>Continue working with group policies</li>
+							<li>Create shared folders for each class</li>						
+							<li>Continue configuring BitDefender</li>
+							<li>Setup a Backup procedure</li>
+							<li>Add Git to 259</li>
+							<li>Add Unreal Engine to 259</li>
 						</ul>
