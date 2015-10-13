@@ -238,6 +238,10 @@
 *   Delivered cables to BlueThunderAlley
 *   Setup VM for SQL server & Forensics Lab
 
+### Oct 13
+
+*   Converted documentation over to Markdown formatting
+
 ### TODO
 
 *   Convert <abbr title="Master Turnover Log">MTOL</abbr> into database
