@@ -10,3 +10,8 @@
 ## Oct 13
 
 *   Converted documentation over to Markdown formatting
+
+## Oct 14
+
+*	Adjust main README.md file to reflect new structure
+*	Split CODE into separate files
