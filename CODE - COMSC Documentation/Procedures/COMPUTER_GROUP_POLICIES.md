@@ -89,3 +89,17 @@
 15. **Double Click** _OEMBackground_ and **Change** the Value data type to _1_
 16. **Click** _OK_
 17. Your logon wallpaper should now be set to the one you chose.
+
+## Setting the Theme
+
+
+## Setting Internet Explorer (IE) Settings
+
+
+## Current Personalization Settings
+
+
+## Current Taskbar and Start Menu Settings
+
+
+## Current Desktop Settings
