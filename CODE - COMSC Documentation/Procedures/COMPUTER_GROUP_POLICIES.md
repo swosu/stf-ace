@@ -1,0 +1,61 @@
+# Setting Group Policies on a Computer
+
+## Go into mmc
+1. **Click** the _Start button_
+2. In the search bar, **Type** _mmc.exe_
+3. **Right click** mmc.exe and **Click** _Run as Administrator_
+
+## Open the Group Policy Object
+1. **Click** the _File_ tab in the upper left corner of the window
+2. **Click** _Add/Remove Snap-in..._
+3. **Find and Select** _Group Policy Object_
+4. **Add>** the Group Policy Object to the right block
+5. **Click** _Finish_
+
+## Changing Personalization Settings
+1. **Expand** _User Configuration_
+2. **Expand** _Administrative Templates_
+3. **Expand** _Control Panel_
+4. **Select** _Personalization_
+5. **Change** the settings you wish to modify
+**IMPORTANT NOTE:** Any time you close out of mmc, make sure that you _DO NOT SAVE_ to the console
+
+## Changing the Default Account Picture
+1. **Go into** the Group Policy Object in mmc if you are not already
+2. **Find** a picture that you want to be the new account picture
+3. **Save** the picture to the computer in a easy-to-access location
+4. If the picture is already a .bmp file, **Continue** to step number 5, otherwise do the following:
+	1. **Open** the picture in the Paint application
+	2. On the upper left corner of the open Paint application, **Click** the _File_ tab
+	3. **Click** _Save as_ and change the file type extension to .bmp
+5. **Click** the _Start buttom_
+6. **Click** _Computer_
+7. **Double Click** _Local Disk(C:)_
+8. In the Search Libraries bar at the top right of the window, **Type** _User Account Pictures_
+9. **Click** the file that shows up with the location _C:\ProgramData\Microsoft_
+10. **Copy** your .bmp file to the location
+
+## Keeping Others from Changing the Default Account Picture
+1. **Get to** _Step 9_ of Changing the Default Account Picture
+2. **Give** the _user.bmp_ file another name
+3. **Copy** your .bmp file to the location and rename it user.bmp
+4. While in the Group Policy Object in mmc:
+	1. **Expand** _Computer Configuration_
+	2. **Expand** _Administrative Templates_
+	3. **Expand** _Control Panel_
+	4. **Click** _User Accounts_
+	5. **Enable** the policy that allows you to apply a default user logon picture to all users
+**NOTE:** You may have to logout of the account before you see the effects take place.
+
+## Changing the Desktop Wallpaper
+1. **Find** an image you want to make the desktop wallpaper (the desktop picture _DOES NOT_ have to be .bmp)
+2. **Make** a folder in _Local Disk(C:)-->Windows-->Web-->Wallpaper_
+3. **Put** your desired desktop pic in the folder
+4. **Go into** the Group Policy Object in mmc if you are not already
+5. **Expand** _User Configuration_
+6. **Expand** _Administrative Templates_
+7. **Expand** _Desktop_
+8. **Click** _Desktop_
+9. **Enable** the policy that allows a desktop wallpaper
+10. **Insert** the path to your picture in the box provided (Ex. C:\Windows\Web\Wallpaper\Abstract\abstract1.jpg)
+**NOTE:** You may have to logout of the account before you see the effects take place.
