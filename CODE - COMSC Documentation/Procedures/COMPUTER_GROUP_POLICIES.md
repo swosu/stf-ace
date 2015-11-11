@@ -59,3 +59,33 @@
 9. **Enable** the policy that allows a desktop wallpaper
 10. **Insert** the path to your picture in the box provided (Ex. C:\Windows\Web\Wallpaper\Abstract\abstract1.jpg)
 **NOTE:** You may have to logout of the account before you see the effects take place.
+
+## Changing the Login Screen Wallpaper Settings
+1. **Go into** the Group Policy Object in mmc if you are not already
+2. **Expand** _Computer Configuration_
+3. **Expand** _Administrative Templates_
+4. **Expand** _System_
+5. **Click**
+6. **Find and Enable** the group policy titled _Always use custom logon background_
+
+### Setting the Login Screen Wallpaper
+1. Requirements for the image:
+	* The image must be less than 256KB in size
+	* The image should match the resolution of your monitor (so that it won't look stretched)
+	* The image must be named _backgroundDefault.jpg_
+2. Windows looks looks for the custom login screen background image in the following directory: _C:\Windows\System32\oobe\info\backgrounds_
+3. By default, the **info** and **backgrounds** folders do not exist, so **Navigate** to the _C:\Windows\System32\oobe_ folder to **Create** the _info_ folder in the _oobe_ folder and the _backgrounds_ folder in the _info_ folder
+4. **Find** the image you want that fits the login screen wallpaper image Requirements
+5. **Copy** the desired background image to the _backgrounds_ folder that you just
+6. **Press** the _Start button_ and in the Search programs and files bar, **Type** _regedit.exe_ and **Right Click** the program to _Run as administrator_
+7. Once in regedit.exe, **Expand** _HKEY_LOCAL_MACHINE_
+8. **Expand** _SOFTWARE_
+9. **Expand** _Microsoft_
+10. **Expand** _Windows_
+11. **Expand** _CurrentVersion_
+12. **Expand** _Authentication_
+13. **Expand** _LogonUI_
+14. **Click** _Background_
+15. **Double Click** _OEMBackground_ and **Change** the Value data type to _1_
+16. **Click** _OK_
+17. Your login wallpaper should now be set to the one you chose.
