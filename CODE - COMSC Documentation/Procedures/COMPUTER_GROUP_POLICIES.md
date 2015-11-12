@@ -19,6 +19,7 @@
 4. **Select** _Personalization_
 5. **Change** the settings you wish to modify
 6. **Click** _OK_
+
 **IMPORTANT NOTE:** Any time you close out of mmc, make sure that you **DO NOT SAVE** to the console. Also, "Current Personalization Settings" is a topic below (in case you may not know which policies you want/need to configure)
 
 ## Changing the Default Account Picture
@@ -47,6 +48,7 @@
 	4. **Click** _User Accounts_
 	5. **Enable** the policy titled _Apply the default user logon picture to all users_
 	6. **Click** _OK_
+
 **NOTE:** You may have to logout of the account before you see the effects take place.
 
 ## Changing the Desktop Wallpaper
@@ -61,6 +63,7 @@
 9. **Enable** the policy that allows a desktop wallpaper
 10. **Insert** the path to your picture in the box provided (Ex. C:\Windows\Web\Wallpaper\Abstract\abstract1.jpg)
 11. **Click** _OK_
+
 **NOTE:** You may have to logout of the account before you see the effects take place.
 
 ## Changing the Login Screen Wallpaper Settings
@@ -140,7 +143,27 @@
 16. **Delete** the key name that says it has been deleted, but make sure to **Keep** _Google_
 
 ## Current Personalization Settings
+>User Configuration --> Administrative Templates --> Control panel --> Personalization
 
+### Enabled Policies
+* Prevent changing color scheme
+* Prevent changing theme
+* Prevent changing visual style for windows and buttons
+* Prohibit selection of visual style font size
+* Prevent changing window color and appearance
+* Prevent changing desktop background
+* Prevent changing Desktop icons
+* Prevent changing mouse pointers
+* Prevent changing screen saver
+* Prevent changing sounds
+* Force specific screen saver
+* Load specific theme
+
+### Disabled Policies
+* Enable screen  saver
+* Password protect screen saver
+* Screen saver timeout
+* Force specific visual style file or force Windows Classic
 
 ## Current Taskbar and Start Menu Settings
 
