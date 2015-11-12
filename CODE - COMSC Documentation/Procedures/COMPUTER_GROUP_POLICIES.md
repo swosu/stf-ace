@@ -81,7 +81,7 @@
 3. By default, the **info** and **backgrounds** folders do not exist, so **Navigate** to the _C:\Windows\System32\oobe_ folder to **Create** the _info_ folder in the _oobe_ folder and the _backgrounds_ folder in the _info_ folder
 4. **Find** the image you want that fits the logon screen wallpaper image Requirements
 5. **Copy** the desired background image to the _backgrounds_ folder that you just
-6. **Press** the _Start_ button and in the Search programs and files bar, **Type** _regedit.exe_ and **Right Click** the program to _Run as administrator_
+6. **Click** the _Start_ button and in the Search programs and files bar, **Type** _regedit.exe_ and **Right Click** the program to _Run as administrator_
 7. Once in regedit.exe, **Expand** _HKEY_LOCAL_MACHINE_
 8. **Expand** _SOFTWARE_
 9. **Expand** _Microsoft_
@@ -99,7 +99,7 @@
 2. **Click** _Personalize_
 3. **Click** _Save Theme_
 4. **Name** your theme something you will remember
-5. **Press** the _Start_ button
+5. **Click** the _Start_ button
 6. **Click** _Computer_
 7. **Double Click** _Local(C:)_
 8. In the Search Libraries bar, **Type** your _ThemeName.theme_ to **Discover** your theme location
@@ -112,8 +112,32 @@
 15. **Type** the location of your theme (should be something like: _C:\Users\LAB\AppData\Local\Microsoft\Windows\ThemeName.theme_)
 16. **Click** _OK_
 
-## Setting Internet Explorer (IE) Settings
+## Changing Internet Explorer (IE) Settings
+1. **Go into** the Group Policy Object in mmc if you are not already
+2. **Expand** _User Configuration_
+3. **Expand** _Administrative Templates_
+4. **Expand** _Windows Components_
+5. **Click** _Internet Explorer_
+6. **Find and Enable** the policy titled _Disable changing home page settings_
+7. **Set** the URL to http://www.swosu.edu/students
 
+## Setting the Internet Explorer Search Provider
+1. **Get to** _Step 5_ of "Changing Internet Explorer (IE) Settings"
+2. **Find and Enable** the policy _Add a specific list of search providers to the user's list of search providers_
+3. **Get into** the Internet Explorer application
+4. **Click** the _Tools_ gear-looking icon in the upper right corner
+5. **Click** _Manage Add-ons_
+6. **Click** the _Search Providers_ button under Add-on Types
+7. **Click** the _Find more search providers_ link on the bottom left of the window
+8. **Find and Install** _Google Search_ as a search providers
+9. **Go back** to the _Search Provider_ window and **Delete** the _Bing_ search provider
+10. Now, **Click** the _Start_ button and in the Search programs and files bar, **Type** _regedit.exe_ and **Right Click** the program to _Run as administrator_
+11. Once in regedit.exe, **Expand** _HKEY_CURRENT_USER_
+12. **Expand** _Software_
+13. **Expand** _Microsoft_
+14. **Expand** _Internet Explorer_
+15. **Click** _SearchScopes_
+16. **Delete** the key name that says it has been deleted, but make sure to **Keep** _Google_
 
 ## Current Personalization Settings
 
