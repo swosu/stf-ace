@@ -143,7 +143,7 @@
 16. **Delete** the key name that says it has been deleted, but make sure to **Keep** _Google_
 
 ## Current Personalization Settings
->User Configuration --> Administrative Templates --> Control panel --> Personalization
+>User Configuration --> Administrative Templates --> Control Panel --> Personalization
 
 ### Enabled Policies
 * Prevent changing color scheme
@@ -169,3 +169,13 @@
 
 
 ## Current Desktop Settings
+>User Configuration --> Administrative Templates --> Desktop --> Desktop
+
+### Enabled Policies
+* Disable Active Desktop
+* Desktop Wallpaper
+* Prohibit adding items
+* Disable all items
+
+### Disabled Policies
+* Enable Active Desktop
