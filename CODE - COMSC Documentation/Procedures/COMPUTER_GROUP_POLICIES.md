@@ -143,7 +143,12 @@
 16. **Delete** the key name that says it has been deleted, but make sure to **Keep** _Google_
 
 ## Current Personalization Settings
+<<<<<<< HEAD
 >User Configuration --> Administrative Templates --> Control Panel --> Personalization
+=======
+> Go into the Group Policy Object in mmc if you are not already
+> User Configuration --> Administrative Templates --> Control Panel --> Personalization
+>>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
 
 ### Enabled Policies
 * Prevent changing color scheme
@@ -166,16 +171,56 @@
 * Force specific visual style file or force Windows Classic
 
 ## Current Taskbar and Start Menu Settings
+> Go into the Group Policy Object in mmc if you are not already
+> User Configuration --> Administrative Templates --> Start Menu and Taskbar
 
+### Enabled Policies
+* Clear history of recently opened documents on exit
+* Clear the recent programs list for new users
+* Turn off personalized menus
+* Lock the Taskbar
+* Remove frequent programs list from the Start Menu
+* Turn off user tracking
+* Do not keep history of recently opened documents
+* Remove Recent Items menu from Start Menu
+* Prevent changes to Taskbar and Start Menu Settings
+* Do not display any custom toolbars in the the taskbar
+* Do not allow pinning items in Jump Lists
+* Do not allow pinning programs to the Taskbar
+* Lock all taskbar settings
+* Prevent users from adding or removing toolbars
+* Prevent users from rearranging toolbars
+* Prevent users from moving taskbar to another screen dock location
+
+**NOTE:** All of the policies not listed under "Enabled Policies" are **Not Configured**
 
 ## Current Desktop Settings
+<<<<<<< HEAD
 >User Configuration --> Administrative Templates --> Desktop --> Desktop
+=======
+> Go into the Group Policy Object in mmc if you are not already
+> User Configuration --> Administrative Templates --> Desktop --> Desktop
+>>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
 
 ### Enabled Policies
 * Disable Active Desktop
 * Desktop Wallpaper
 * Prohibit adding items
+<<<<<<< HEAD
 * Disable all items
 
 ### Disabled Policies
 * Enable Active Desktop
+=======
+
+### Disabled Policies
+* Enable Active Desktop
+
+**NOTE:** All of the policies not listed under "Enabled Policies" or "Disabled Policies" are **Not Configured**
+
+## Other Enabled Policies
+> Go into the Group Policy Object in mmc if you are not already
+
+1. Computer Configuration --> Administrative Templates --> System --> Group Policy
+	* User Group Policy loopback processing mode **Mode: Replace**
+>>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
