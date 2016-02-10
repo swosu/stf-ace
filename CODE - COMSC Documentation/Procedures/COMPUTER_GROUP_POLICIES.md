@@ -143,12 +143,8 @@
 16. **Delete** the key name that says it has been deleted, but make sure to **Keep** _Google_
 
 ## Current Personalization Settings
-<<<<<<< HEAD
->User Configuration --> Administrative Templates --> Control Panel --> Personalization
-=======
-> Go into the Group Policy Object in mmc if you are not already
 > User Configuration --> Administrative Templates --> Control Panel --> Personalization
->>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
+> Go into the Group Policy Object in mmc if you are not already
 
 ### Enabled Policies
 * Prevent changing color scheme
@@ -195,23 +191,18 @@
 **NOTE:** All of the policies not listed under "Enabled Policies" are **Not Configured**
 
 ## Current Desktop Settings
-<<<<<<< HEAD
->User Configuration --> Administrative Templates --> Desktop --> Desktop
-=======
-> Go into the Group Policy Object in mmc if you are not already
 > User Configuration --> Administrative Templates --> Desktop --> Desktop
->>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
+> Go into the Group Policy Object in mmc if you are not already
 
 ### Enabled Policies
 * Disable Active Desktop
 * Desktop Wallpaper
 * Prohibit adding items
-<<<<<<< HEAD
 * Disable all items
 
 ### Disabled Policies
 * Enable Active Desktop
-=======
+
 
 ### Disabled Policies
 * Enable Active Desktop
@@ -223,4 +214,3 @@
 
 1. Computer Configuration --> Administrative Templates --> System --> Group Policy
 	* User Group Policy loopback processing mode **Mode: Replace**
->>>>>>> b3218eba274fb5736fa59c81a6f10b5c8d15afa8
