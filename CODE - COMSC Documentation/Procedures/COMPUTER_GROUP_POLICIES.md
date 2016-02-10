@@ -203,10 +203,6 @@
 ### Disabled Policies
 * Enable Active Desktop
 
-
-### Disabled Policies
-* Enable Active Desktop
-
 **NOTE:** All of the policies not listed under "Enabled Policies" or "Disabled Policies" are **Not Configured**
 
 ## Other Enabled Policies
