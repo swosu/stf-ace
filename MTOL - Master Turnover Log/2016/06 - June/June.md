@@ -109,4 +109,56 @@
 * Master PC Windows Updates               Status: 45/72 Updates Installed                                                         Time: 1637
 
 ###NOTE
-* Most errors show right after a server reboot 
+* Most errors show right after a server reboot
+
+##Mon, June 27th
+###Completed
+* MTOL for June 20th, 21st, and 22nd
+* Installed 3 updates on Master PC
+* Installed 12 updates on Server
+
+###Problems That Arose
+* Errors in Event Viewer log (See Below)
+
+###Need to Do
+* Install RAM and HDDs (Must wait for few days with no classes)
+* Talk to professors about programs required for classes
+* Send email to IT about Respondus Lock-Down Browser Lab Edition
+* Full server backup on 2nd external HD
+* Update all existing applications on Master PC
+
+###Research
+####General
+* ISO on CD issue
+* Continued research on Schannel error & found something for removing TSL, but large security risk so will not do
+* Adding HDDs & Backup structure to pre-existing system
+* Watched Instructional Videos:
+  * Intro to Web Administration by Eli the Computer Guy
+  * Network Cabling by Eli the Computer Guy
+  * Physical Network Segmentation by Eli the Computer Guy
+
+####Errors
+* Error ID#36888, Source: Schannel (MOST FREQUENTLY OCCURRING)
+* Error ID#5722, Source: NETLOGON
+* Warning ID#910, Source: ESENT
+* Warning ID#1530, Source: Microsoft-Windows-User Profile Service
+* Warning ID#27, Source: E1iexpress
+* Warning ID#2511, Source: Server
+* Error ID#8193, Source: VSS
+* Warning ID#3, Source: SQL Browser
+* Warning ID#10020, Source: Microsoft-Windows-DHCP-Server
+* Warning ID#12, Source: Microsoft-Windows-Time Service
+* Warning ID#10154, Source: Microsoft-Windows-Windows Remote Management
+* Warning ID#12317, Source: SRMSVC
+* Warning ID#6038, Source: Microsoft-Windows-LSA
+* Warning ID#63, Source: Microsoft-Windows-WMI
+* Warning ID#396, Source: MR_MONITER
+* Warning ID#6004, Source: Microsoft-Windows-WINLOGIN
+* Warning ID#10149, Source: Microsoft-Windows-Windows Remote Management
+* Warning ID#1309, Source: ASP.NET 4.0.30319.0
+
+###In Progress
+* NONE
+
+###NOTE
+* Most errors show right after a server reboot
