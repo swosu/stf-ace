@@ -249,3 +249,56 @@
 
 ###NOTE
 * Most errors show right after a server reboot
+
+##Wed, June 29th
+###Completed
+* MTOL for June 29th
+* Added the Google Update admin file to the Master PC for auto-updating Google Chrome
+* Made image of Master PC
+
+###Problems That Arose
+* Errors in Event Viewer log (See Below)
+
+###Need to Do
+* Install RAM and HDDs (Must wait for few days with no classes)
+* Email professors about programs required for classes (Get Dr. Sweeney's opinion)
+* Send email to IT about Respondus Lock-Down Browser Lab Edition
+* Full server backup on 2nd external HD again due to power outage interrupts yesterday evening that caused errors in backup
+* Update leftover Master PC applications:
+  * National Instruments LabVIEW (32-bit); Version 10.0.1; 30 DAYS OF LICENSE REMAINING (SEE MRS. BAUGHER)
+  * Respondus Lockdown Browser Lab Edition; WAITING FOR RESPONSE FROM RENE
+  * Visio 2013; NEED LICENSE (SEE MRS. BAUGHER)
+
+###Research
+####General
+* ISO on CD issue
+* Adding HDDs & Backup structure to pre-existing system
+* Watched Instructional Videos:
+  * Adding Hard Drives and Creating Volumes in Windows Server 2012 by Eli the Computer Guy (8:06/30:11 Finished Watching)
+
+####Errors
+* Error ID#36888, Source: Schannel (MOST FREQUENTLY OCCURRING)
+* Error ID#5722, Source: NETLOGON
+* Warning ID#910, Source: ESENT
+* Warning ID#1530, Source: Microsoft-Windows-User Profile Service
+* Warning ID#27, Source: E1iexpress
+* Warning ID#2511, Source: Server
+* Error ID#8193, Source: VSS
+* Warning ID#3, Source: SQL Browser
+* Warning ID#10020, Source: Microsoft-Windows-DHCP-Server
+* Warning ID#12, Source: Microsoft-Windows-Time Service
+* Warning ID#10154, Source: Microsoft-Windows-Windows Remote Management
+* Warning ID#12317, Source: SRMSVC
+* Warning ID#6038, Source: Microsoft-Windows-LSA
+* Warning ID#63, Source: Microsoft-Windows-WMI
+* Warning ID#396, Source: MR_MONITER
+* Warning ID#6004, Source: Microsoft-Windows-WINLOGIN
+* Warning ID#10149, Source: Microsoft-Windows-Windows Remote Management
+* Warning ID#1309, Source: ASP.NET 4.0.30319.0
+
+###In Progress
+* Server Backup 2nd HDD                 Status: System Reserved 100%, Local Disk 70%, System State 0%, Bare Metal Recovery 0%     Time: 1303
+* Master PC to IMG                      Status: 100% Completed                                                                    Time: 1211
+
+###NOTE
+* Most errors show right after a server reboot
