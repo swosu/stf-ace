@@ -8,7 +8,7 @@
 
 ### Tue, Jun 23
 
-*   Created subjects for dicumentation
+*   Created subjects for documentation
 *   Installed <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> on server
 *   Installed <abbr title="Windows Deployment Services">WDS</abbr> on server
 *   Installed <abbr title="Domain Name Server">DNS</abbr> on server
